@@ -31,22 +31,24 @@ class Player(pg.sprite.Sprite):
         pg.sprite.Sprite.__init__(self)
         self.game = game
         self.image = pg.image.load('img/Cat1.png')
-        self.rect = self.image.get_rect()
-        self.rect.center = (Width / 2, Height / 2)
-        self.pos = vec(Width / 2, Height / 2)
-        self.vel = vec(0, 0)
-        self.acc = vec(0, 0)
+        self.rect = self.image.get_rect()   # Получение прямоугольника (rect) изображения, который используется для
+                                            # определения положения и столкновений.
+        self.rect.center = (Width / 2, Height / 2) # Установка начального положения игрока в центре экрана.
+        self.pos = vec(Width / 2, Height / 2) # Позиция игрока как 2D-вектор.
+        self.vel = vec(0, 0) # Скорость игрока как 2D-вектор.
+        self.acc = vec(0, 0) # Ускорение игрока как 2D-вектор.
 
     def jump(self):
         # Прыгать, только если на платформе
-        self.rect.x += 1
-        hits = pg.sprite.spritecollide(self, self.game.platforms, False)
-        self.rect.x -= 1
+        self.rect.x += 1 # Сдвиг прямоугольника Playera на 1 пиксель вправо для проверки столкновения.
+        hits = pg.sprite.spritecollide(self, self.game.platforms, False)  # Если столкновение есть, возвращаем
+                                                                                # список столкновений.
+        self.rect.x -= 1 # Возвращаем игрока на место после проверки.
         if hits:
-            self.vel.y = -PLAYER_JUMP
+            self.vel.y = -PLAYER_JUMP # Вертикальная скорость игрока для прыжка
 
     def update(self):
-        self.acc = vec(0, PLAYER_GRAV)
+        self.acc = vec(0, PLAYER_GRAV) # Ускорение под действием гравитации.
         keys = pg.key.get_pressed()
         if keys[pg.K_LEFT]:
             self.acc.x = -PLAYER_ACC

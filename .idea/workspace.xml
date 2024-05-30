@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fab5114-058b-4f46-ac68-02b9476af95b" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Only_Jump.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Only_Jump.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/Only_Jump.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/Only_Jump.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Only_Jump/warn-Only_Jump.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Only_Jump/warn-Only_Jump.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717041335609</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="commit">
+      <option name="closed" value="true" />
+      <created>1717041811424</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717041811424</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
