@@ -60,7 +60,7 @@ class Player(pg.sprite.Sprite):
         # Уравнения движения
         self.vel += self.acc
         self.pos += self.vel + 0.5 * self.acc
-        # wrap around the sides of the screen
+        # Выход за границы экрана
         if self.pos.x > Width:
             self.pos.x = 0
         if self.pos.x < 0:
