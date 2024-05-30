@@ -1,4 +1,3 @@
-# Sprite classes for platform game
 import pygame as pg
 from settings import *
 vec = pg.math.Vector2
@@ -31,9 +30,9 @@ class Player(pg.sprite.Sprite):
         if keys[pg.K_RIGHT]:
             self.acc.x = PLAYER_ACC
 
-        # apply friction
+        # Трение
         self.acc.x += self.vel.x * PLAYER_FRICTION
-        # equations of motion
+        # Уравнения движения
         self.vel += self.acc
         self.pos += self.vel + 0.5 * self.acc
         # wrap around the sides of the screen
