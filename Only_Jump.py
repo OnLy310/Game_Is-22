@@ -2,7 +2,7 @@ import random
 
 import pygame.mixer
 from pygame import mixer
-from sprites import *
+from settings import *
 
 icon = pygame.image.load('img/Cat1.png')
 pygame.display.set_icon(icon)
