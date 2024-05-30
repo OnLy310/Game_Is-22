@@ -77,8 +77,8 @@ class Game:
 
         # Создавать новые платформы, чтобы сохранить среднее число
         while len(self.platforms) < 6:
-            width = random.randrange(50, 100)
-            height = 30 - round(self.score/10)
+            width = random.randrange(50, 110)
+            height = 30 - round(self.score/1000)
             if height < 1:
                 height = 1
             p = Platform(random.randrange(0, Width - width),

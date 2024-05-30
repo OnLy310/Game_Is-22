@@ -22,7 +22,7 @@ PLATFORM_LIST = [(0, Height - 40, Width, 40),
 
 # Цвета
 White = (255, 255, 255)
-Black = (0, 0, 0)
+Gray = (236, 236, 236)
 SkyBlue = (30, 205, 255)
 
 
@@ -71,7 +71,7 @@ class Platform(pg.sprite.Sprite):
     def __init__(self, x, y, w, h):
         pg.sprite.Sprite.__init__(self)
         self.image = pg.Surface((w, h))
-        self.image.fill(Black)
+        self.image.fill(Gray)
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
