@@ -16,11 +16,11 @@ class Game:
         # Инициализация
         pg.init()
         pg.mixer.init()
-        self.screen = pg.display.set_mode((WIDTH, HEIGHT))
-        pg.display.set_caption(TITLE)
+        self.screen = pg.display.set_mode((Width, Height))
+        pg.display.set_caption(Title)
         self.clock = pg.time.Clock()
         self.running = True
-        self.font_name = pg.font.match_font(FONT_NAME)
+        self.font_name = pg.font.match_font(FontName)
 
     def new(self):
         # Запуск новой игры
@@ -58,16 +58,16 @@ class Game:
                 self.player.vel.y = 0
 
         # Если игрок достигнет 1/4 верхней части экрана
-        if self.player.rect.top <= HEIGHT / 4:
+        if self.player.rect.top <= Height / 4:
             self.player.pos.y += abs(self.player.vel.y)
             for plat in self.platforms:
                 plat.rect.y += abs(self.player.vel.y)
-                if plat.rect.top >= HEIGHT:
+                if plat.rect.top >= Height:
                     plat.kill()
                     self.score += 10
 
         # Смерть
-        if self.player.rect.bottom > HEIGHT:
+        if self.player.rect.bottom > Height:
             for sprite in self.all_sprites:
                 sprite.rect.y -= max(self.player.vel.y, 10)
                 if sprite.rect.bottom < 0:
@@ -81,7 +81,7 @@ class Game:
             height = 30 - round(self.score/10)
             if height < 1:
                 height = 1
-            p = Platform(random.randrange(0, WIDTH - width),
+            p = Platform(random.randrange(0, Width - width),
                          random.randrange(-75, -30),
                          width, height)
             self.platforms.add(p)
@@ -101,9 +101,9 @@ class Game:
 
     def draw(self):
         # Игровой цикл - draw
-        self.screen.fill(SKYBLUE)
+        self.screen.fill(SkyBlue)
         self.all_sprites.draw(self.screen)
-        self.draw_text(str(self.score), 22, WHITE, WIDTH / 2, 15)
+        self.draw_text(str(self.score), 22, White, Width / 2, 15)
         pg.display.flip()
 
     def show_start_screen(self):
