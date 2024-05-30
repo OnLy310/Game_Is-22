@@ -1,7 +1,6 @@
 import pygame as pg
 vec = pg.math.Vector2
 
-
 Title = "Only Jump!"
 Width = 480
 Height = 600
@@ -24,11 +23,6 @@ PLATFORM_LIST = [(0, Height - 40, Width, 40),
 # Цвета
 White = (255, 255, 255)
 Black = (0, 0, 0)
-# Red = (255, 0, 0)
-# Green = (0, 255, 0)
-# Blue = (0, 0, 255)
-# Yellow = (255, 255, 0)
-# LightBlue = (0, 155, 155)
 SkyBlue = (30, 205, 255)
 
 
