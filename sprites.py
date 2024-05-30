@@ -1,6 +1,35 @@
 import pygame as pg
-
 vec = pg.math.Vector2
+
+
+Title = "Only Jump!"
+Width = 480
+Height = 600
+FPS = 60
+FontName = 'arial'
+
+# Свойства игрока
+PLAYER_ACC = 0.7
+PLAYER_FRICTION = -0.12
+PLAYER_GRAV = 0.8
+PLAYER_JUMP = 20
+
+# Начальные платформы
+PLATFORM_LIST = [(0, Height - 40, Width, 40),
+                 (Width / 2 - 50, Height * 3 / 4, 100, 30),
+                 (125, Height - 350, 100, 30),
+                 (350, 200, 100, 30),
+                 (175, 100, 50, 30)]
+
+# Цвета
+White = (255, 255, 255)
+Black = (0, 0, 0)
+# Red = (255, 0, 0)
+# Green = (0, 255, 0)
+# Blue = (0, 0, 255)
+# Yellow = (255, 255, 0)
+# LightBlue = (0, 155, 155)
+SkyBlue = (30, 205, 255)
 
 
 class Player(pg.sprite.Sprite):
@@ -52,33 +81,3 @@ class Platform(pg.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
-
-
-Title = "Only Jump!"
-Width = 480
-Height = 600
-FPS = 60
-FontName = 'arial'
-
-# Свойства игрока
-PLAYER_ACC = 0.7
-PLAYER_FRICTION = -0.12
-PLAYER_GRAV = 0.8
-PLAYER_JUMP = 20
-
-# Начальные платформы
-PLATFORM_LIST = [(0, Height - 40, Width, 40),
-                 (Width / 2 - 50, Height * 3 / 4, 100, 30),
-                 (125, Height - 350, 100, 30),
-                 (350, 200, 100, 30),
-                 (175, 100, 50, 30)]
-
-# Цвета
-White = (255, 255, 255)
-Black = (0, 0, 0)
-# Red = (255, 0, 0)
-# Green = (0, 255, 0)
-# Blue = (0, 0, 255)
-# Yellow = (255, 255, 0)
-# LightBlue = (0, 155, 155)
-SkyBlue = (30, 205, 255)
