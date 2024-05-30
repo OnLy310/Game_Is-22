@@ -15,7 +15,7 @@ class Player(pg.sprite.Sprite):
         self.acc = vec(0, 0)
 
     def jump(self):
-        # jump only if standing on a platform
+        # Прыгать, только если на платформе
         self.rect.x += 1
         hits = pg.sprite.spritecollide(self, self.game.platforms, False)
         self.rect.x -= 1
