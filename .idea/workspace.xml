@@ -5,13 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fab5114-058b-4f46-ac68-02b9476af95b" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/platformer_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/coin.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/exit_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/game_over.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ghost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/guy1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/guy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/guy3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/guy4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/load_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/music.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/platform_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/platform_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/restart_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/save_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/start_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sun.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +63,9 @@
     &quot;accountId&quot;: &quot;80f19b78-e191-49ef-ab3a-ac82d273e518&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -37,15 +75,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tutorial.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.platformer_game.executor": "Run",
+    "Python.settings.executor": "Run",
+    "Python.sprites.executor": "Run",
+    "Python.tutorial.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Game_Is-22" />
@@ -102,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716321293959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1716799944260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716799944260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1716800143433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716800143433</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
